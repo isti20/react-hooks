@@ -1,11 +1,11 @@
 import "./App.css";
-import UseCallbackComponent from "./useCallback/Example2.js";
+import UseMemoComponent from "./useMemo/index.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UseCallbackComponent />
+        <UseMemoComponent />
       </header>
     </div>
   );
