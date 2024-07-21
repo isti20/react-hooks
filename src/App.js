@@ -1,15 +1,11 @@
-import React, { useState } from "react";
-
 import "./App.css";
-import LevelApp from "./useEffect/LevelApp";
+import ExampleUseRef from "./useRef/useRef1";
 
 function App() {
-  const [level, setLevel] = useState(1);
   return (
     <div className="App">
       <header className="App-header">
-        <LevelApp level={level} />
-        <button onClick={() => setLevel(level + 1)}>Add Level</button>
+        <ExampleUseRef />
       </header>
     </div>
   );
