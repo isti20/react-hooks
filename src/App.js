@@ -1,11 +1,11 @@
 import "./App.css";
-import CleanUp3 from "./useEffect/Example1";
+import CleanUp4 from "./useEffect/Example2";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CleanUp3 />
+        <CleanUp4 />
       </header>
     </div>
   );
