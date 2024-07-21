@@ -1,11 +1,11 @@
 import "./App.css";
-import Counter from './usestate/Counter.js';
+import Foods from "./usestate/Foods.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
+        <Foods />
       </header>
     </div>
   );
