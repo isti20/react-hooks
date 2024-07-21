@@ -1,11 +1,11 @@
 import "./App.css";
-import Foods from "./usestate/Foods.js";
+import FComponent from "./usestate/FComponent.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Foods />
+        <FComponent />
       </header>
     </div>
   );
