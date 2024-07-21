@@ -1,5 +1,5 @@
 import "./App.css";
-import UseCallbackComponent from "./useCallback/Example1.js";
+import UseCallbackComponent from "./useCallback/Example2.js";
 
 function App() {
   return (
