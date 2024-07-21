@@ -1,0 +1,6 @@
+Notes:
+
+- clean up function tanpa dependency dijalankan hanya jika nilai statenya berubah
+- clean up function dengan dependency dijalankan hanya jika nilai state dependencynya berubah
+- clean up function dengan dependency array kosong dijalankan 1x setelah komponen dirender dan
+  ketika komponen akan diremove dari dom 
