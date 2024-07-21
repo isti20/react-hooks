@@ -1,11 +1,11 @@
 import "./App.css";
-import FComponent from "./usestate/FComponent.js";
+import Counter from "./useEffect/Counter1";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FComponent />
+        <Counter />
       </header>
     </div>
   );
