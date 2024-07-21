@@ -1,11 +1,11 @@
 import "./App.css";
-import Counter from "./useEffect/Counter2.js";
+import FunctionalApp from "./useEffect/FunctionalApp2";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
+        <FunctionalApp />
       </header>
     </div>
   );
