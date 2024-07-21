@@ -1,6 +1,0 @@
-Notes:
-
-- useEffect tanpa dependency dijalankan hanya jika nilai statenya berubah
-- useEffect dengan dependency array kosong dijalankan 1x setelah komponen dirender
-- useEffect dengan dependency dijalankan 1x setelah komponen dirender dan ketika nilai state
-  yang menjadi dependencynya ada yg berubah. Dependency bisa lebih dari satu dan bisa juga sebuah props.

@@ -1,11 +1,11 @@
 import "./App.css";
-import ExampleUseRef from "./useRef/useRef1";
+import UseRef2 from "./useRef/useRef2";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ExampleUseRef />
+        <UseRef2 />
       </header>
     </div>
   );
