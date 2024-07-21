@@ -1,11 +1,11 @@
 import "./App.css";
-import UseRef2 from "./useRef/useRef2";
+import UseRef3 from "./useRef/useRef3";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UseRef2 />
+        <UseRef3 />
       </header>
     </div>
   );
