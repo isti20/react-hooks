@@ -1,11 +1,11 @@
 import "./App.css";
-import UseRef3 from "./useRef/useRef3";
+import UseCallbackComponent from "./useCallback/Example1.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UseRef3 />
+        <UseCallbackComponent />
       </header>
     </div>
   );
