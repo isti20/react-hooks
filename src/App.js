@@ -1,6 +1,7 @@
 import { createContext } from "react";
 import Topbar from "./components/Topbar.js";
 import Footer from "./components/Footer.js";
+import Dashboard from "./components/Dashboard.js";
 import "./App.css";
 
 export const UserContext = createContext({
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Topbar />
+        <Dashboard />
         <Footer />
       </header>
     </div>
