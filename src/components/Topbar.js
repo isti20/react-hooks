@@ -1,24 +1,17 @@
-import { UserContext } from "../App";
+import { useTheme } from "../context/Theme";
 
 const Topbar = () => {
+  const theme = useTheme();
+  console.log('Topbar', theme)
+
   return (
-    <div>
-      Topbar
-      <UserContext.Consumer>
-        {(values) => {
-          return (
-            <h1>
-              ID : {values.id}
-              <br />
-              Name : {values.name}
-              <br />
-              Email: {values.email}
-              <br />
-            </h1>
-          );
-        }}
-      </UserContext.Consumer>
-    </div>
+    <nav className="topbar">
+      <div className="topbar-container">
+        <div>
+          <h1>Topbar App</h1>
+        </div>
+      </div>
+    </nav>
   );
 };
 
