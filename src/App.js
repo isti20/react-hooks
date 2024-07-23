@@ -1,5 +1,6 @@
 import { createContext } from "react";
 import Topbar from "./components/Topbar.js";
+import Footer from "./components/Footer.js";
 import "./App.css";
 
 export const UserContext = createContext({
@@ -8,11 +9,17 @@ export const UserContext = createContext({
   id: "123wefdsf4",
 });
 
+export const ThemeContext = createContext({
+  theme: "dark",
+  primary: "red",
+});
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Topbar />
+        <Footer />
       </header>
     </div>
   );
