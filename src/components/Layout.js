@@ -1,20 +1,12 @@
-import Topbar from "./Topbar";
-import Footer from "./Footer";
-import Home from "../page/Home";
-import { useTheme } from "../context/Theme";
+import Login from "../page/Login";
+import LoginReducer from "../page/LoginReducer.js";
 
 const Layout = () => {
-  const theme = useTheme();
-  console.log('Layout Component', theme)
-
   return (
-    <div className={`app ${theme.theme}`}>
-      <Topbar />
-      <div className="page">
-        Page Content
-        <Home />
-      </div>
-      <Footer />
+    <div className="page">
+      <h1>Login Page</h1>
+      {/* <Login /> */}
+      <LoginReducer />
     </div>
   );
 };
