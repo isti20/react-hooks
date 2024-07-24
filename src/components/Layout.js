@@ -1,12 +1,14 @@
-import Login from "../page/Login";
-import LoginReducer from "../page/LoginReducer.js";
+import Topbar from "./Topbar";
+import LoginContextPage from "../page/LoginContextPage";
 
 const Layout = () => {
+
   return (
     <div className="page">
-      <h1>Login Page</h1>
-      {/* <Login /> */}
-      <LoginReducer />
+      <Topbar />
+      <div className="page">
+        <LoginContextPage />
+      </div>
     </div>
   );
 };

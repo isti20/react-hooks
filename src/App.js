@@ -1,10 +1,11 @@
 import Layout from "./components/Layout";
+import AuthProvider from "./context/auth";
 
 function App() {
   return (
-    <div className="app">
+    <AuthProvider>
       <Layout />
-    </div>
+    </AuthProvider>
   );
 }
 
