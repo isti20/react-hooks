@@ -1,14 +1,14 @@
-import Topbar from "./Topbar";
-import LoginContextPage from "../page/LoginContextPage";
+import Posts from "../page/Posts";
+import Users from "../page/Users";
 
 const Layout = () => {
 
   return (
-    <div className="page">
-      <Topbar />
-      <div className="page">
-        <LoginContextPage />
-      </div>
+    <div>
+      <h1>Page Content</h1>
+      <br />
+      {/* <Users /> */}
+      <Posts />
     </div>
   );
 };
